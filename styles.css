@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('GothamPro-Light.eot');
+    src: url('GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('GothamPro-Light.woff') format('woff'),
+    url('GothamPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Regular';
+    src: url('GothamPro.eot');
+    src: url('GothamPro.eot?#iefix') format('embedded-opentype'),
+    url('GothamPro.woff') format('woff'),
+    url('GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Medium';
+    src: url('GothamPro-Medium.eot');
+    src: url('GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('GothamPro-Medium.woff') format('woff'),
+    url('GothamPro-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Bold';
+    src: url('GothamPro-Bold.eot');
+    src: url('GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('GothamPro-Bold.woff') format('woff'),
+    url('GothamPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Black';
+    src: url('GothamPro-Black.eot');
+    src: url('GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+    url('GothamPro-Black.woff') format('woff'),
+    url('GothamPro-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'Gotham Pro Medium', sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #09102d;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 10px;
+    z-index: 100;
+    width: 100vw;
+    background-color: rgba(155, 7, 35, 0.7);
+}
+
+.header__brand-wrapper {
+    padding: 0 10px;
+    background-color: #09102d;
+}
+
+.header__brand {
+    width: 100px;
+    transform: translateY(3px);
+}
