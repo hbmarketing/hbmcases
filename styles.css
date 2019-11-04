@@ -49,6 +49,9 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     margin: 0;
     font-family: 'Gotham Pro Medium', sans-serif;
     font-size: 100%;
@@ -75,4 +78,71 @@ body {
 .header__brand {
     width: 100px;
     transform: translateY(3px);
+}
+
+.header__cta-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header__cta {
+    font-family: 'Gotham Pro Regular', sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.main {
+    flex-grow: 1;
+    min-height: 700px;
+    padding-top: 65px;
+    padding-bottom: 10px;
+}
+
+.main__case-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('./1.jpg') center center no-repeat;
+    background-size: contain;
+}
+.main__arrow-left {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    font-size: 10rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.main__arrow-right {
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    font-size: 10rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.footer {
+    height: 50px;
+}
+
+.footer__insta-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+.footer__insta-icon {
+    width: 30px;
+    padding-right: 15px;
+}
+
+.footer__insta-cta {
+    font-family: 'Gotham Pro Regular', sans-serif;
+    font-size: 30px;
 }
