@@ -50,11 +50,31 @@ body {
     min-height: 700px;
     padding-top: 65px;
     padding-bottom: 10px;
-    text-align: center;
 }
 
 .main__case-wrapper {
+    width: 100%;
     height: 100%;
+    -moz-background-image: url('./1.jpg');
+    -ms-background-image: url('./1.jpg');
+    -webkit-background-image: url('./1.jpg');
+    -o-background-image: url('./1.jpg');
+    background-image: url('./1.jpg');
+    -moz-background-repeat: no-repeat;
+    -ms-background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
+    -o-background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    -moz-background-position: center center;
+    -ms-background-position: center center;
+    -webkit-background-position: center center;
+    -o-background-position: center center;
+    background-position: center center;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 }
 .main__arrow-left {
     position: absolute;

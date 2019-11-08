@@ -19,10 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     arrowLeft.addEventListener('click', () => {
-        caseWrapper.src = `./${decreaseCurrentCaseNumber()}.jpg`;
+        caseWrapper.style.backgroundImage = `url('./${decreaseCurrentCaseNumber()}.jpg')`;
     });
 
     arrowRight.addEventListener('click', () => {
-        caseWrapper.src = `./${increaseCurrentCaseNumber()}.jpg`;
+        caseWrapper.style.backgroundImage = `url('./${increaseCurrentCaseNumber()}.jpg')`;
     });
 });
