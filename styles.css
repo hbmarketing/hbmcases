@@ -50,11 +50,13 @@ body {
     font-weight: 100;
 }
 .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-grow: 1;
     min-height: 700px;
     padding-top: 65px;
     padding-bottom: 10px;
-    text-align: center;
 }
 
 .main__case-wrapper {
