@@ -95,3 +95,11 @@ body {
     font-size: 30px;
     text-transform: none;
 }
+
+@media screen and (max-width: 570px) {
+    .main__case-wrapper {
+        width: 100vw;
+        height: auto;
+        min-height: auto;
+    }
+}
